@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DALContracts\DALContracts.csproj" />
+    <ProjectReference Include="..\DocumentServiceImpl\DocumentServiceImpl.csproj" />
+    <ProjectReference Include="..\ImageMarkingSeeviceContracs\ImageMarkingServiceContracs.csproj" />
+    <ProjectReference Include="..\MarkerServiceImpl\MarkerServiceImpl.csproj" />
+    <ProjectReference Include="..\SharingServiceImpl\SharingServiceImpl.csproj" />
+    <ProjectReference Include="..\SQLInfraDAL\SQLInfraDAL.csproj" />
+    <ProjectReference Include="..\UserServiceImpl\UserServiceImpl.csproj" />
+  </ItemGroup>
+
+
+</Project>
